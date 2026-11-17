@@ -1,0 +1,12 @@
+Listing/
+*.xlsx
+*.xlsm
+*.csv
+.git/
+__pycache__/
+venv/
+.venv/
+.gemini/
+brain/
+scratch/
+*.log

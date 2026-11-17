@@ -1,0 +1,445 @@
+{
+    "join_keys": {
+        "old_listing": "Style Code",
+        "master": "Style Code",
+        "content": "Style Code"
+    },
+    "mappings": {
+        "SrNo": {
+            "type": "master",
+            "column": "SrNo"
+        },
+        "Product GroupID": {
+            "type": "master",
+            "column": "Product GroupID"
+        },
+        "Existing Product GroupID": {
+            "type": "master",
+            "column": "Existing Product GroupID"
+        },
+        "SourceFCID": {
+            "type": "master",
+            "column": "SourceFCID"
+        },
+        "Manufacturer BarCode": {
+            "type": "master",
+            "column": "Manufacturer BarCode"
+        },
+        "Photoshoot Required": {
+            "type": "master",
+            "column": "Photoshoot Required"
+        },
+        "Unit": {
+            "type": "master",
+            "column": "Unit"
+        },
+        "Length(in cm)": {
+            "type": "master",
+            "column": "Length(in cm)"
+        },
+        "Breadth(in cm)": {
+            "type": "master",
+            "column": "Breadth(in cm)"
+        },
+        "Height(in cm)": {
+            "type": "master",
+            "column": "Height(in cm)"
+        },
+        "Diameter": {
+            "type": "master",
+            "column": "Diameter"
+        },
+        "OpenMRP": {
+            "type": "master",
+            "column": "OpenMRP"
+        },
+        "Set Quantity": {
+            "type": "master",
+            "column": "Set Quantity"
+        },
+        "OfferType": {
+            "type": "master",
+            "column": "OfferType"
+        },
+        "Commodity": {
+            "type": "master",
+            "column": "Commodity"
+        },
+        "PrintMRP": {
+            "type": "master",
+            "column": "PrintMRP"
+        },
+        "MarginTypeID": {
+            "type": "master",
+            "column": "MarginTypeID"
+        },
+        "Margin": {
+            "type": "master",
+            "column": "Margin"
+        },
+        "MinimumShipingHours": {
+            "type": "master",
+            "column": "MinimumShipingHours"
+        },
+        "ECode": {
+            "type": "master",
+            "column": "ECode"
+        },
+        "GovtScheme": {
+            "type": "master",
+            "column": "GovtScheme"
+        },
+        "Warranty Available": {
+            "type": "master",
+            "column": "Warranty Available"
+        },
+        "Warranty Period Unit": {
+            "type": "master",
+            "column": "Warranty Period Unit"
+        },
+        "Warranty Period": {
+            "type": "master",
+            "column": "Warranty Period"
+        },
+        "Included in Warranty": {
+            "type": "master",
+            "column": "Included in Warranty"
+        },
+        "Circumference - In Cms": {
+            "type": "master",
+            "column": "Circumference - In Cms"
+        },
+        "Photo": {
+            "type": "master",
+            "column": "Photo"
+        },
+        "Style Code": {
+            "type": "master",
+            "column": "Style Code"
+        },
+        "Product Name": {
+            "type": "content",
+            "column": "Product Name"
+        },
+        "Product Description": {
+            "type": "content",
+            "column": "Product Description"
+        },
+        "Brand Name": {
+            "type": "constant",
+            "value": "PURPLE UNITED KIDS"
+        },
+        "CategoryName": {
+            "type": "constant",
+            "value": "Clothes & Shoes"
+        },
+        "SubCategoryName": {
+            "type": "master",
+            "column": "SubCategoryName"
+        },
+        "Default Footwear Size": {
+            "type": "master",
+            "column": "Default Footwear Size"
+        },
+        "Size": {
+            "type": "master",
+            "column": "Size"
+        },
+        "Brand Size": {
+            "type": "master",
+            "column": "Brand Size"
+        },
+        "Pantone/Vendor Color": {
+            "type": "master",
+            "column": "Pantone/Vendor Color"
+        },
+        "MRP": {
+            "type": "master",
+            "column": "MRP"
+        },
+        "Base Cost": {
+            "type": "master",
+            "column": "Base Cost"
+        },
+        "Quantity": {
+            "type": "master",
+            "column": "Quantity"
+        },
+        "Tax": {
+            "type": "master",
+            "column": "Tax"
+        },
+        "ProductType": {
+            "type": "master",
+            "column": "ProductType"
+        },
+        "HSNCode": {
+            "type": "master",
+            "column": "HSNCode"
+        },
+        "8DigitHSNCode": {
+            "type": "master",
+            "column": "8DigitHSNCode"
+        },
+        "MadeIn": {
+            "type": "constant",
+            "value": "India"
+        },
+        "Gender": {
+            "type": "master",
+            "column": "Gender"
+        },
+        "SizeChartTemplate": {
+            "type": "master",
+            "column": "SizeChartTemplate"
+        },
+        "UnitForAge": {
+            "type": "constant",
+            "value": "Year"
+        },
+        "AgeFrom": {
+            "type": "master",
+            "column": "AgeFrom"
+        },
+        "AgeTo": {
+            "type": "master",
+            "column": "AgeTo"
+        },
+        "Top Fabric/Upper Fabric": {
+            "type": "master",
+            "column": "Top Fabric/Upper Fabric"
+        },
+        "Bottom Fabric/Sole Material": {
+            "type": "master",
+            "column": "Bottom Fabric/Sole Material"
+        },
+        "PoType": {
+            "type": "master",
+            "column": "PoType"
+        },
+        "Silhouette/Shape": {
+            "type": "master",
+            "column": "Silhouette/Shape"
+        },
+        "Pattern/Print type": {
+            "type": "master",
+            "column": "Pattern/Print type"
+        },
+        "Pattern Length": {
+            "type": "master",
+            "column": "Pattern Length"
+        },
+        "Surface Ornamentation": {
+            "type": "master",
+            "column": "Surface Ornamentation"
+        },
+        "Sleeve Length": {
+            "type": "master",
+            "column": "Sleeve Length"
+        },
+        "Neckline": {
+            "type": "master",
+            "column": "Neckline"
+        },
+        "Neck Opening": {
+            "type": "master",
+            "column": "Neck Opening"
+        },
+        "Highlight": {
+            "type": "master",
+            "column": "Highlight"
+        },
+        "Fabric Type": {
+            "type": "master",
+            "column": "Fabric Type"
+        },
+        "Blend": {
+            "type": "master",
+            "column": "Blend"
+        },
+        "Packaging": {
+            "type": "constant",
+            "value": "Single"
+        },
+        "Utility": {
+            "type": "constant",
+            "value": "Fashion"
+        },
+        "No. of Units in a pack": {
+            "type": "master",
+            "column": "No. of Units in a pack"
+        },
+        "BACK": {
+            "type": "master",
+            "column": "BACK"
+        },
+        "SEASON CODE": {
+            "type": "master",
+            "column": "SEASON CODE"
+        },
+        "Toe to Heel Size": {
+            "type": "master",
+            "column": "Toe to Heel Size"
+        },
+        "Fabric Composition": {
+            "type": "master",
+            "column": "Fabric Composition"
+        },
+        "Waist": {
+            "type": "master",
+            "column": "Waist"
+        },
+        "Export Only": {
+            "type": "master",
+            "column": "Export Only"
+        },
+        "Style Grading": {
+            "type": "master",
+            "column": "Style Grading"
+        },
+        "Fc Size": {
+            "type": "master",
+            "column": "Fc Size"
+        },
+        "Story Name": {
+            "type": "master",
+            "column": "Story Name"
+        },
+        "Show Stopper": {
+            "type": "master",
+            "column": "Show Stopper"
+        },
+        "CaseSize": {
+            "type": "master",
+            "column": "CaseSize"
+        },
+        "InnerLining": {
+            "type": "master",
+            "column": "InnerLining"
+        },
+        "FootwearLastCode": {
+            "type": "master",
+            "column": "FootwearLastCode"
+        },
+        "12DigitHSNCode": {
+            "type": "master",
+            "column": "12DigitHSNCode"
+        },
+        "Primary FC Color": {
+            "type": "master",
+            "column": "Primary FC Color"
+        },
+        "FC Color 2": {
+            "type": "master",
+            "column": "FC Color 2"
+        },
+        "FC Color 3": {
+            "type": "master",
+            "column": "FC Color 3"
+        },
+        "FC Color 4": {
+            "type": "master",
+            "column": "FC Color 4"
+        },
+        "EPP": {
+            "type": "master",
+            "column": "EPP"
+        },
+        "IsOnlyB2BActive": {
+            "type": "master",
+            "column": "IsOnlyB2BActive"
+        },
+        "ProductVariation": {
+            "type": "master",
+            "column": "ProductVariation"
+        },
+        "KeyDifferentiator": {
+            "type": "master",
+            "column": "KeyDifferentiator"
+        },
+        "ImportantInstructionforPHContent": {
+            "type": "master",
+            "column": "ImportantInstructionforPHContent"
+        },
+        "SABER": {
+            "type": "master",
+            "column": "SABER"
+        },
+        "Fastening Type": {
+            "type": "master",
+            "column": "Fastening Type"
+        },
+        "FabricforHsnMapping": {
+            "type": "master",
+            "column": "FabricforHsnMapping"
+        },
+        "NOOS": {
+            "type": "master",
+            "column": "NOOS"
+        },
+        "Items Included in Packaging 1": {
+            "type": "master",
+            "column": "Items Included in Packaging 1"
+        },
+        "Items Included in Packaging 2": {
+            "type": "constant",
+            "value": "1 Shorts"
+        },
+        "Items Included in Packaging 3": {
+            "type": "master",
+            "column": "Items Included in Packaging 3"
+        },
+        "Items Included in Packaging 4": {
+            "type": "master",
+            "column": "Items Included in Packaging 4"
+        },
+        "Items Included in Packaging 5": {
+            "type": "master",
+            "column": "Items Included in Packaging 5"
+        },
+        "Items Included in Packaging 6": {
+            "type": "master",
+            "column": "Items Included in Packaging 6"
+        },
+        "Items Included in Packaging 7": {
+            "type": "master",
+            "column": "Items Included in Packaging 7"
+        },
+        "Items Included in Packaging 8": {
+            "type": "master",
+            "column": "Items Included in Packaging 8"
+        },
+        "Items Included in Packaging 9": {
+            "type": "master",
+            "column": "Items Included in Packaging 9"
+        },
+        "Items Included in Packaging 10": {
+            "type": "master",
+            "column": "Items Included in Packaging 10"
+        },
+        "Repeat type": {
+            "type": "master",
+            "column": "Repeat type"
+        },
+        "Reference Product Id": {
+            "type": "master",
+            "column": "Reference Product Id"
+        },
+        "Box Length(in cm)": {
+            "type": "master",
+            "column": "Box Length(in cm)"
+        },
+        "Box Breadth(in cm)": {
+            "type": "master",
+            "column": "Box Breadth(in cm)"
+        },
+        "Box Height(in cm)": {
+            "type": "master",
+            "column": "Box Height(in cm)"
+        },
+        "Box Weight(in kg)": {
+            "type": "master",
+            "column": "Box Weight(in kg)"
+        }
+    }
+}
